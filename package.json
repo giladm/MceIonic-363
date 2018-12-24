@@ -24,7 +24,6 @@
     "@ionic-native/splash-screen": "~4.17.0",
     "@ionic-native/status-bar": "~4.17.0",
     "@ionic/storage": "2.2.0",
-    "IBM-MCE-Cordova-Plugin": "file:../../ongoing-mce-cordova-sdk/plugins/com.xtify.mce.sdk",
     "cordova-android": "6.4.0",
     "cordova-ios": "4.5.5",
     "cordova-plugin-device": "^2.0.2",
@@ -51,22 +50,7 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {},
-      "com.xtify.mce.sdk": {
-        "ANDROID_APPKEY": "gccsD5gk0h",
-        "SENDER_ID": "498419630132",
-        "CUSTOM_ACTIONS": "openInboxMessage",
-        "IOS_DEV_APPKEY": "apv0ZvcHCU",
-        "IOS_PROD_APPKEY": "apv0ZvcHCU",
-        "SERVER_URL": "https://api.ibm.xtify.com/3.0",
-        "LOGLEVEL": "verbose",
-        "AUTO_INITIALIZE_LOCATION": "true",
-        "CHANNEL_NAME": "MCE SDK Notification Channel",
-        "CHANNEL_DESCRIPTION": "This is the notification channel for the MCE SDK sample application",
-        "CHANNEL_ID": "mce_sample_channel",
-        "INVALIDATE_EXISTING_USER": "false",
-        "AUTO_REINITIALIZE": "true"
-      }
+      "cordova-plugin-ionic-keyboard": {}
     },
     "platforms": [
       "ios",

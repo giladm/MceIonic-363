@@ -82,21 +82,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
-    <plugin name="com.xtify.mce.sdk" spec="/Users/giladm/workspace/mce/sdk/cordova/ongoing-mce-cordova-sdk/plugins/com.xtify.mce.sdk">
-        <variable name="ANDROID_APPKEY" value="gccsD5gk0h" />
-        <variable name="SENDER_ID" value="498419630132" />
-        <variable name="CUSTOM_ACTIONS" value="openInboxMessage" />
-        <variable name="IOS_DEV_APPKEY" value="apv0ZvcHCU" />
-        <variable name="IOS_PROD_APPKEY" value="apv0ZvcHCU" />
-        <variable name="SERVER_URL" value="https://api.ibm.xtify.com/3.0" />
-        <variable name="LOGLEVEL" value="verbose" />
-        <variable name="AUTO_INITIALIZE_LOCATION" value="true" />
-        <variable name="CHANNEL_NAME" value="MCE SDK Notification Channel" />
-        <variable name="CHANNEL_DESCRIPTION" value="This is the notification channel for the MCE SDK sample application" />
-        <variable name="CHANNEL_ID" value="mce_sample_channel" />
-        <variable name="INVALIDATE_EXISTING_USER" value="false" />
-        <variable name="AUTO_REINITIALIZE" value="true" />
-    </plugin>
     <engine name="ios" spec="4.5.5" />
     <engine name="android" spec="6.4.0" />
 </widget>
